@@ -19,8 +19,14 @@ const Chef = () => (
           <img src={images.quote} alt="quote" />
           <p className='p__opensans'>Placeholder for chef's quote to clients and customers here</p>
         </div>
+        <p className='p__opensans'>Additional chef's description or paragraph bio here. Additional chef's description or paragraph bio here. Additional chef's description or paragraph bio here.</p>
       </div>
 
+      <div className='app__chef-sign'>
+        <p>Jack Yeung</p>
+        <p className='p__opensans'>Chef & Founder</p>
+        <img src={images.signjy} alt="sign" />
+      </div>
     </div>
   </div>
 );

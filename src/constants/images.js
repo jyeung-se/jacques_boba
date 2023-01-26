@@ -20,8 +20,8 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
-import bobamenupic from '../assets/bobamenupic.png'
-import chefjy from '../assets/chefjy.png'
+import bobamenupic from '../assets/bobamenupic.png';
+import chefjy from '../assets/chefjy.png';
 
 export default {
   bg,

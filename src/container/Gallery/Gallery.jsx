@@ -8,8 +8,12 @@ import './Gallery.css';
 const Gallery = () => {
 
   return (
-    <div>
-      Gallery stuff here
+    <div className='app__gallery flex__center'>
+      <div className='app__gallery-content'>
+        <SubHeading title='Instagram' />
+        <h1 className='headtext__cormorant'>Photo Gallery</h1>
+        <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}>Photo gallery place holder text and description etc here.</p>
+      </div>
     </div>
   )
 

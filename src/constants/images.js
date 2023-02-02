@@ -25,6 +25,7 @@ import chefjy from '../assets/chefjy.png';
 import signjy from  '../assets/signjy.png';
 import jacques from  '../assets/jacques.png';
 import bobastraw from  '../assets/bobastraw.png';
+import J from  '../assets/J.png';
 
 
 export default {
@@ -54,5 +55,6 @@ export default {
   chefjy,
   signjy,
   jacques,
-  bobastraw
+  bobastraw,
+  J
 };

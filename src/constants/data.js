@@ -2,9 +2,9 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Pomegranate Starfall',
+    title: 'Red Starfall',
     price: '$8',
-    tags: 'Pomagrante |  21 oz',
+    tags: 'Pomegranate | Red Mango |  16 oz',
   },
   {
     title: 'Strawberry Mojito',
@@ -12,9 +12,9 @@ const wines = [
     tags: 'Strawberry | Lime | 16 oz',
   },
   {
-    title: 'Yuzu Lemon Sky',
+    title: 'Lemon Sky',
     price: '$7',
-    tags: 'Yuzu Lemon | 21 oz',
+    tags: 'Yuzu Lemon | Lime Soda | 16 oz',
   },
   {
     title: 'Moondrop',
@@ -24,35 +24,35 @@ const wines = [
   {
     title: 'Sunset Bay ',
     price: '$8',
-    tags: 'Persimmon | Blood Orange | 21 oz',
+    tags: 'Persimmon | Blood Orange | 16 oz',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Watermelon Rose',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'The Jacques',
+    price: '$13',
+    tags: 'Watermelon | Rose | 21 oz',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Lightning Storm',
+    price: '$11',
+    tags: 'Pink Lemon | Black Currant | 21 oz',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'The Gatsby',
+    price: '$12',
+    tags: 'Cherry | Mango | Soda Pop | 21 oz',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Love Shot',
+    price: '$11',
+    tags: 'Strawberry | Pomegranate | Rose Petals | 21 oz',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Hawaiian Surf',
+    price: '$12',
+    tags: 'Pineapple | Coconut | Natural Blue Flower | 21 oz',
   },
 ];
 

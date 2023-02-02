@@ -4,27 +4,27 @@ const wines = [
   {
     title: 'Pomegranate Starfall',
     price: '$8',
-    tags: 'Pomagrante | Yuzu Lemon',
+    tags: 'Pomagrante |  21 oz',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Strawberry Mojito',
+    price: '$6',
+    tags: 'Strawberry | Lime | 16 oz',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Yuzu Lemon Sky',
+    price: '$7',
+    tags: 'Yuzu Lemon | 21 oz',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Moondrop',
+    price: '$9',
+    tags: 'Lychee | Longan | Vanilla | 16 oz',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Sunset Bay ',
+    price: '$8',
+    tags: 'Persimmon | Blood Orange | 21 oz',
   },
 ];
 

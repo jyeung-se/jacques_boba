@@ -22,7 +22,9 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import bobamenupic from '../assets/bobamenupic.png';
 import chefjy from '../assets/chefjy.png';
-import signjy from  '../assets/signjy.png'
+import signjy from  '../assets/signjy.png';
+import jacques from  '../assets/jacques.png';
+
 
 export default {
   bg,
@@ -49,5 +51,6 @@ export default {
   gericht,
   bobamenupic,
   chefjy,
-  signjy
+  signjy,
+  jacques
 };

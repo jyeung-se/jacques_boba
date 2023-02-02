@@ -2,9 +2,9 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Pomegranate Starfall',
+    price: '$8',
+    tags: 'Pomagrante | Yuzu Lemon',
   },
   {
     title: 'Catena Malbee',
@@ -30,7 +30,7 @@ const wines = [
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Watermelon Rose',
     price: '$20',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
   },

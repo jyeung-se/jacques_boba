@@ -24,6 +24,7 @@ import bobamenupic from '../assets/bobamenupic.png';
 import chefjy from '../assets/chefjy.png';
 import signjy from  '../assets/signjy.png';
 import jacques from  '../assets/jacques.png';
+import bobastraw from  '../assets/bobastraw.png';
 
 
 export default {
@@ -52,5 +53,6 @@ export default {
   bobamenupic,
   chefjy,
   signjy,
-  jacques
+  jacques,
+  bobastraw
 };

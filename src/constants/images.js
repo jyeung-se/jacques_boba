@@ -27,6 +27,10 @@ import jacques from  '../assets/jacques.png';
 import bobastraw from  '../assets/bobastraw.png';
 import J from  '../assets/J.png';
 import goldribbon from '../assets/goldribbon.png';
+import redboba from '../assets/redboba.png';
+import greenboba from '../assets/greenboba.png';
+import pinkboba from '../assets/pinkboba.png';
+import goldboba from '../assets/goldboba.png';
 
 
 export default {
@@ -58,5 +62,9 @@ export default {
   jacques,
   bobastraw,
   J,
-  goldribbon
+  goldribbon,
+  redboba,
+  greenboba,
+  pinkboba,
+  goldboba,
 };

@@ -6,7 +6,7 @@ import { images } from '../../constants'
 import './Gallery.css';
 
 
-const galleryImages = [ images.gallery01, images.gallery02, images.gallery03, images.gallery04 ]
+const galleryImages = [ images.goldboba, images.redboba, images.greenboba, images.pinkboba ]
 
 const Gallery = () => {
   const scrollRef = useRef(null)
@@ -35,6 +35,7 @@ const Gallery = () => {
           {galleryImages.map((image, index) => (
             <div className='app__gallery-images flex__center' key={`gallery_image${index + 1}`}>
               <img src={image} alt="gallery" />
+              <BsInstagram className='gallery__image-icon' />
             </div>
           ))}
         </div>

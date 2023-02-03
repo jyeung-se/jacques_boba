@@ -26,6 +26,7 @@ import signjy from  '../assets/signjy.png';
 import jacques from  '../assets/jacques.png';
 import bobastraw from  '../assets/bobastraw.png';
 import J from  '../assets/J.png';
+import goldribbon from '../assets/goldribbon.png';
 
 
 export default {
@@ -56,5 +57,6 @@ export default {
   signjy,
   jacques,
   bobastraw,
-  J
+  J,
+  goldribbon
 };

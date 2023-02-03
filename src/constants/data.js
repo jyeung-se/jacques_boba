@@ -35,9 +35,14 @@ const cocktails = [
     tags: 'Watermelon | Rose | 21 oz',
   },
   {
-    title: 'Lightning Storm',
+    title: 'Lavender Spring',
     price: '$11',
-    tags: 'Pink Lemon | Black Currant | 21 oz',
+    tags: 'Lavender | Condensed Milk | Black Tea | 21 oz',
+  },
+  {
+    title: 'Matcha World',
+    price: '$11',
+    tags: 'Matcha | Vanilla | Honey | 21 oz',
   },
   {
     title: 'The Gatsby',
@@ -53,6 +58,11 @@ const cocktails = [
     title: 'Hawaiian Surf',
     price: '$12',
     tags: 'Pineapple | Coconut | Natural Blue Flower | 21 oz',
+  },
+  {
+    title: 'Golden Days',
+    price: '$18',
+    tags: '18K Gold | Mango | Yogurt | Mochi | 21 oz',
   },
 ];
 

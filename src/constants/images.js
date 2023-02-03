@@ -31,6 +31,7 @@ import redboba from '../assets/redboba.png';
 import greenboba from '../assets/greenboba.png';
 import pinkboba from '../assets/pinkboba.png';
 import goldboba from '../assets/goldboba.png';
+import watermelonboba from '../assets/watermelonboba.png';
 
 
 export default {
@@ -67,4 +68,5 @@ export default {
   greenboba,
   pinkboba,
   goldboba,
+  watermelonboba,
 };

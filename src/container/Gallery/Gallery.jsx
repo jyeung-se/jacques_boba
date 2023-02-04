@@ -30,18 +30,18 @@ const Gallery = () => {
         <button type='button' className='custom__button'>Reveal More</button>
       </div>
 
-      <div className='app_gallery-images'>
+      <div className='app__gallery-images'>
         <div className='app__gallery-images_container' ref={scrollRef}>
           {galleryImages.map((image, index) => (
-            <div className='app__gallery-images flex__center' key={`gallery_image${index + 1}`}>
+            <div className='app__gallery-images_card flex__center' key={`gallery_image${index + 1}`}>
               <img src={image} alt="gallery" />
               <BsInstagram className='gallery__image-icon' />
             </div>
           ))}
         </div>
         <div className='app__gallery-images_arrow'>
-          <BsArrowLeftShort className='gallery__arrow-icon' onClick={( )=> scroll('left')} />
-          <BsArrowRightShort className='gallery__arrow-icon' onClick={( )=> scroll('right')} />
+          <BsArrowLeftShort className='gallery__arrow-icon' onClick={()=> scroll('left')} />
+          <BsArrowRightShort className='gallery__arrow-icon' onClick={()=> scroll('right')} />
         </div>
       </div>
     </div>

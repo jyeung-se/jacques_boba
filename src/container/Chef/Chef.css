@@ -32,7 +32,7 @@
     color: var(--color-golden);
 }
 
-.app__chef-sign {
+.app__chef-sign img {
     width: 250px;
     margin-top: 3rem;
 }

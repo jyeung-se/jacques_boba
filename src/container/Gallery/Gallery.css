@@ -45,7 +45,7 @@
 .app__gallery-images_card {
     position: relative;
     min-width: 301px;
-    height: 500px;
+    height: 447px;
     margin-right: 2rem;
 }
 
@@ -100,7 +100,7 @@
 @media screen and (min-width: 2000px) {
     .app__gallery-content {
         min-width: 1000px;
-        padding-right: 4 rem;
+        padding-right: 4rem;
     }
 
     .app__gallery-images_card {
@@ -120,7 +120,7 @@
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .app__gallery {
         padding: 4rem 0 4rem 4rem;
     }

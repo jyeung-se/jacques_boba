@@ -17,7 +17,7 @@ const Gallery = () => {
     if(direction === 'left') {
       current.scrollLeft -= 300
     } else {
-      current.scrollRight += 300
+      current.scrollLeft += 300
     }
   }
 
@@ -39,7 +39,7 @@ const Gallery = () => {
             </div>
           ))}
         </div>
-        <div className='app__gallery-images_arrow'>
+        <div className='app__gallery-images_arrows'>
           <BsArrowLeftShort className='gallery__arrow-icon' onClick={()=> scroll('left')} />
           <BsArrowRightShort className='gallery__arrow-icon' onClick={()=> scroll('right')} />
         </div>

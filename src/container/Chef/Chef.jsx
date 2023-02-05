@@ -17,9 +17,10 @@ const Chef = () => (
       <div className='app__chef-content'>
         <div className='app__chef-content_quote'>
           <img src={images.quote} alt="quote" />
-          <p className='p__opensans'>Placeholder for Sir Jacques's quote to clients and customers here</p>
+          <p className='p__opensans'>Always take the road less taken; You'd be surprised how much more there is to see!</p>
         </div>
-        <p className='p__opensans'>Additional Sir Jacques's description or paragraph bio here. Additional Sir Jacques's description or paragraph bio here. Additional Sir Jacques's description or paragraph bio here.</p>
+        <br />
+        <p className='p__opensans'>Nobody becomes a master in one day. It takes hard work, REAL hard work, to walk the path of creating your own works of art. I traveled the world to bring its secrets to your mouth.</p>
       </div>
 
       <div className='app__chef-sign'>

@@ -1,5 +1,5 @@
 import bg from '../assets/bg.png';
-import logo from '../assets/logo.png';
+import jacqueslogo from '../assets/jacqueslogo.png';
 import overlaybg from '../assets/overlaybg.png';
 import laurels from '../assets/laurels.png';
 import quote from '../assets/quote.png';
@@ -23,9 +23,9 @@ import ribbonstraight from '../assets/ribbonstraight.png';
 
 
 export default {
-  bg,
-  logo,
+  jacqueslogo,
   overlaybg,
+  bg,
   laurels,
   quote,
   bobamenupic,

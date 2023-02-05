@@ -33,6 +33,8 @@ import goldboba from '../assets/goldboba.png';
 import watermelonboba from '../assets/watermelonboba.png';
 import mangoboba from '../assets/mangoboba.png';
 import galaxyboba from '../assets/galaxyboba.png';
+import moonawardicon from '../assets/moonawardicon.png';
+
 
 
 export default {
@@ -70,5 +72,6 @@ export default {
   goldboba,
   watermelonboba,
   mangoboba,
-  galaxyboba
+  galaxyboba,
+  moonawardicon
 };

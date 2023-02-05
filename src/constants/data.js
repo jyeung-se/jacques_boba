@@ -1,6 +1,6 @@
 import images from './images';
 
-const wines = [
+const seasonals = [
   {
     title: 'Red Starfall',
     price: '$8',
@@ -28,7 +28,7 @@ const wines = [
   },
 ];
 
-const cocktails = [
+const originals = [
   {
     title: 'The Jacques',
     price: '$13',
@@ -68,25 +68,25 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    imgUrl: images.moonawardicon,
+    title: 'Michelin Star ~ 2022',
+    subtitle: 'The Jacques was awarded a Michelin Star for their unique concoctions',
   },
   {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    imgUrl: images.moonawardicon,
+    title: 'Boba Master of the Year ~ 2022',
+    subtitle: 'Awarded to the Top 10 Boba Bonnoisseurs of the World',
   },
   {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    imgUrl: images.moonawardicon,
+    title: 'Most Fun & Eye-Catching Beverage ~ 2022',
+    subtitle: "Our Galaxy Boba Blew Our Customers' Minds",
   },
   {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    imgUrl: images.moonawardicon,
+    title: 'Flavor Pioneer ~ 2021-2022',
+    subtitle: 'The Secret is a Secret for a Reason, You Know?',
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { seasonals, originals, awards };

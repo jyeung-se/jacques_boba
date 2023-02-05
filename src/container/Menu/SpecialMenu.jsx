@@ -12,11 +12,11 @@ const SpecialMenu = () => (
     </div>
 
     <div className='app__specialMenu-menu'>
-      <div className='app__specialMenu-menu_wine flex__center'>
+      <div className='app__specialMenu-menu_seasonals flex__center'>
         <p className='app__specialMenu-menu_heading'>Seasonal Boba</p>
         <div className='app__specialMenu-menu-items'>
-          {data.wines.map((wine, index) => (
-            <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} /> 
+          {data.seasonals.map((seasonal, index) => (
+            <MenuItem key={seasonal.title + index} title={seasonal.title} price={seasonal.price} tags={seasonal.tags} /> 
           ))}
         </div>
       </div>
@@ -25,11 +25,11 @@ const SpecialMenu = () => (
         <img src={images.bobamenupic} alt="menu img" />
       </div>
 
-      <div className='app__specialMenu-menu_cocktails flex__center'>
+      <div className='app__specialMenu-menu_originals flex__center'>
         <p className='app__specialMenu-menu_heading'>Jacques Original Boba</p>
         <div className='app__specialMenu-menu-items'>
-          {data.cocktails.map((cocktail, index) => (
-            <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} /> 
+          {data.originals.map((original, index) => (
+            <MenuItem key={original.title + index} title={original.title} price={original.price} tags={original.tags} /> 
           ))}
         </div>
       </div>

@@ -6,7 +6,7 @@ import { images } from '../../constants'
 import './Gallery.css';
 
 
-const galleryImages = [ images.goldboba, images.redboba, images.greenboba, images.pinkboba ]
+const galleryImages = [ images.yellowblueboba, images.redboba, images.greenboba, images.toppings, images.goldboba, images.pinkboba ]
 
 const Gallery = () => {
   const scrollRef = useRef(null)
@@ -26,7 +26,7 @@ const Gallery = () => {
       <div className='app__gallery-content'>
         <SubHeading title='Instagram' />
         <h1 className='headtext__cormorant'>Photo Gallery</h1>
-        <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}>Photo gallery place holder text and description etc here.</p>
+        <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}>Check out some of our unique bobas~</p>
         <button type='button' className='custom__button'>Reveal More</button>
       </div>
 

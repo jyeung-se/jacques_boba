@@ -1,7 +1,6 @@
 import bg from '../assets/bg.png';
 import jacqueslogo from '../assets/jacqueslogo.png';
 import overlaybg from '../assets/overlaybg.png';
-import laurels from '../assets/laurels.png';
 import quote from '../assets/quote.png';
 import bobamenupic from '../assets/bobamenupic.png';
 import chefjy from '../assets/chefjy.png';
@@ -26,7 +25,6 @@ export default {
   jacqueslogo,
   overlaybg,
   bg,
-  laurels,
   quote,
   bobamenupic,
   chefjy,

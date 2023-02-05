@@ -16,7 +16,6 @@ const SpecialMenu = () => (
         <p className='app__specialMenu-menu_heading'>Seasonal Boba</p>
         <div className='app__specialMenu-menu-items'>
           {data.wines.map((wine, index) => (
-            // <p>{wine.title}</p>
             <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} /> 
           ))}
         </div>

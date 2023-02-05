@@ -10,7 +10,6 @@ import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
-import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
 import award01 from '../assets/award01.png';
@@ -32,6 +31,8 @@ import greenboba from '../assets/greenboba.png';
 import pinkboba from '../assets/pinkboba.png';
 import goldboba from '../assets/goldboba.png';
 import watermelonboba from '../assets/watermelonboba.png';
+import mangoboba from '../assets/mangoboba.png';
+import galaxyboba from '../assets/galaxyboba.png';
 
 
 export default {
@@ -47,7 +48,6 @@ export default {
   menu,
   overlaybg,
   spoon,
-  welcome,
   findus,
   laurels,
   award01,
@@ -69,4 +69,6 @@ export default {
   pinkboba,
   goldboba,
   watermelonboba,
+  mangoboba,
+  galaxyboba
 };

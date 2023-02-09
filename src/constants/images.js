@@ -1,4 +1,4 @@
-import bg from '../assets/bg.png';
+import bg from '../assets/bg.jpg';
 import jacqueslogo from '../assets/jacqueslogo.png';
 import overlaybg from '../assets/overlaybg.png';
 import quote from '../assets/quote.png';
